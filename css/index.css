@@ -35,7 +35,7 @@ body{
 }
 
 .banner .info{
-    margin-top: 15%;
+    margin-top: 5%;
     transform: translateY(-15%);
 }
 
@@ -67,12 +67,22 @@ body{
     background: #e91d63;
 }
 
+.banner .Carrusel{
+    height: 50%;
+    width: 50%;
+}
+
 .contenedorFormulario{
     margin-top: 5%;
     margin-left: 5%;
     margin-bottom: 5%;
     margin-right: 5%;
-    background: rgba(128, 128, 128,.5);
+    background: rgba(128, 128, 128, 0.5);
+    transition: all 0.5 ease;
+}
+
+.contenedorFormulario:hover{
+    background: rgba(128, 128, 128, 0.7);
 }
 
 label{
